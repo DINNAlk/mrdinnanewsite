@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'betmBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("./assets/fonts/BetmBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'BetmBlack';
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("./assets/fonts/BetmBlack.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'KomikaTitle';
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("./assets/fonts/KomikaTitle.ttf") format("truetype");
+}
+
+
+.betmFontBold {
+  font-family: 'betmBold', sans-serif; 
+}
+
+.betmFontLight{
+  font-family: 'BetmBlack', sans-serif; 
+}
+
+.komikatitlefont{
+  font-family: 'KomikaTitle', sans-serif; 
+}

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+}
+
+
+
+/* Home stylish start */
+#popImageFile{
+    bottom: 0%;
+    
+}
+
+#popImageText{
+    top:-50%;
+    
+}
+
+.poptop{
+    bottom: 0%;
+    animation:1s alternate poptopimage;
+}
+
+.popdown{
+    top:50%;
+    animation:1s alternate popdowntext;
+}
+
+@keyframes poptopimage {
+    0%{
+        bottom:-10%;
+    }
+    100%{
+        bottom:0%;
+    }
+    
+}
+
+@keyframes popdowntext {
+    0%{
+        top:0%;
+    }
+    100%{
+        top:50%;
+    }
+}
+
+.dinna{
+    height: 100vh;
+}
+/* Home stylish end */
