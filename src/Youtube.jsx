@@ -10,7 +10,9 @@ export default function Youtube() {
       </p>
       <p className='BetmBlack'>
         Coming Soon ... 
+      
       </p>
+      <a href="https://www.youtube.com/@MR_DINNA">View Channel Now !</a>
     </div>
   )
 }
