@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+      // Get the pathname (e.g., "/section")
+      var pathname = window.location.pathname;
+
+      // Redirect to index.html with hash route
+      window.location.replace("/#"+pathname);
+    </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>
